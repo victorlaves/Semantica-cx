@@ -33,28 +33,69 @@ html {
 }
 .navBar{
     text-align: center;
-    line-height: 2vw;
+    line-height: 4vw;
 }
-.navOpt{
+.navOpt:hover{
     vertical-align: middle;
     margin-left : 2vw;
+    transition-duration: 0.4s;
 }
 .conteudo{
-    background-color: white;
+    background-color: rgb(148, 139, 139);
     height: 86vh;
     text-align: center;
 }
 .beneficios{
     height: 15vh;
-    width: 80vw;
-    margin-top: 5vh;
     background-color: aliceblue;
-    display: inline-block;
     border-radius: 1vw;
+}
+.conteudos{
+  width: 80vw;
+  margin-top: 5vh;
+  display: inline-block;
 }
 .ofertas{
     height: 15vh;
     width: 20vw;
     float: left;
     text-align: left;
+}
+.images{
+  height: 48vh;
+}
+.imgs{
+  background-color: white;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  width: 15vw;
+  height: 35vh;
+  float: left;
+  overflow: hidden;
+}
+.imgs:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  height: 48vh;
+}
+.imgs img{
+  border-bottom: solid 1px;
+  width: 15vw;
+  height: 30vh;
+}
+.imgs h4{
+  font-size: 13.5px;
+  margin-left: 1vw;
+  text-decoration: line-through;
+  display: none;
+}
+.imgs:hover h4{
+  display: block;
+}
+.imgs h3{
+  font-size: 20.5px;
+  margin-left: 1vw;
+}
+.nome{
+  font-size: 20px;
 }
